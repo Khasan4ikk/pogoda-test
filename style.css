@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+    background: linear-gradient(90deg, #faf0cd, #a1aaf8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  h1 {
+    font-family: 'Permanent Marker', cursive; /* Шрифт для заголовка */
+    font-size: 3em;
+    color: #333;
+    margin: 15px;
+  }
+
+  .input-group {
+    width: 100%;
+    max-width: 400px; /* Максимальная ширина для поля ввода */
+    margin: 0 auto; /* Выравнивание по центру */
+  }
+
+  #cityInput {
+    border-radius: 5px; 
+    padding: 10px;
+  }
+
+  #searchButton {
+    border-radius: 5px; 
+    background-color: #007bff; 
+    color: white;
+    border: none; 
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  #weatherInfo {
+    margin-top: 20px;
+  }
+
+  #weatherData, #airQualityData {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
